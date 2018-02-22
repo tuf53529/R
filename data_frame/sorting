@@ -1,0 +1,4 @@
+# Play around with the order function in the console
+vector1 <- c(500, 865, 32)
+
+order(vector1)
