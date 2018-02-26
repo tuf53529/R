@@ -1,0 +1,5 @@
+# Load data
+data(email50)
+
+# View its structure
+str(email50)
