@@ -1,0 +1,7 @@
+# Create number_yn column in email50
+email50 <- email50 %>%
+  mutate(number_yn = ifelse(number == "none", "no", "yes")) 
+
+# Visualize number_yn
+ggplot(email50, aes(x = number_yn)) +
+  geom_bar()
